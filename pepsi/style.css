@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300;400;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    background-color:#3481c9 ; 
+   height:100vh;
+   color: white;
+   position: relative;
+
+}
+.content{
+    padding: 20px;
+    margin: 0 7rem;
+   height: 20%;
+   
+  
+}
+img{
+    width: 50px;
+}
+nav{
+   
+    padding: 8px 19px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+   padding: 0 13px;
+}
+.content2{
+    padding: 20px;
+    height: 70%;
+    margin: 0 7rem;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content2 .content-text{
+    
+}
+.content2 .image{
+    width: 220px;
+   
+}
+.content2 .content-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content2 .content-text h1 span{
+    font-size: 70px;
+}
+.content2 .content-text p{
+    margin-bottom: 30px;
+    font-weight: 300;
+    line-height: 1.4;
+    width: 60%;
+}
+button{
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    color: #000;
+    transition: background 0.5s ease , color 0.5s ease;
+    
+}
+button:hover{
+    background: transparent;
+    outline: 2px solid #fff;
+    color: white;
+    cursor: pointer;
+   
+
+}
+.content2  .social{
+    margin-left: 1rem;
+    box-sizing: content-box;
+    width: 60px;
+
+}
+.icon span{
+ display: block;
+
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+   border-radius:50px;
+  margin-top: 10px;
+   background-color: white;
+text-align: center;
+line-height: 60px;
+overflow: hidden;
+box-shadow: 5px 10px 20px  rgba(150, 150, 150, 0.3);
+transition: all 0.3s linear;
+
+
+}
+
+
+.icon:hover{
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon:hover i{
+color: white;
+}
+.icon .fa-facebook-f{
+    color:#1a6ed8 ;
+}
+.fb:hover{
+    background-color: #1a6ed8;
+}
+.aig{
+    color: #fff;
+}
+.social .ig{
+
+}
+
+.dig{
+    background-color: red;
+    width: 60px;
+    align-items: center;
+   
+    clip-path: inset(31% 33% 36% 33%);
+    background: linear-gradient(45deg, #405DE6, #E1306C, #FD9A00, #FDCB58, #8A3AB9);d
+    
+}
+.icon .fa-instagram{
+    border-radius: px;
+   clip-path: inset(6% 2% 6% 2%);
+    
+ 
+    background: linear-gradient(45deg, #405DE6, #E1306C, #FD9A00, #FDCB58, #8A3AB9);
+}
+.ig:hover{
+   
+    background: linear-gradient(45deg, #405DE6, #E1306C, #FD9A00, #FDCB58, #8A3AB9);
+}
+.icon .fa-youtube{
+    color: #FE0000;
+}
+.yt:hover{
+    background-color:#fe0000 ;
+
+}
+.three{
+    position: absolute;
+    bottom: 20px;
+    left:50% ;
+    
+    transform: translate(-50%);
+}
+.three .one{
+    transform: scale(1.06);
+}
+.three .two ,.three .three3{
+    opacity: 0.7;
+}
+.three img{
+    margin: 5px;
+    transition: all 0.2s ease;
+}
+.three img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.container .content2 img{
+    animation: img 1s ease;
+}
+.social{
+    animation: img 1s ease;
+
+}
+@keyframes img{
+    0%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} 
+.plogo:hover{
+    cursor: pointer;
+
+}
